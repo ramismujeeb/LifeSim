@@ -1,0 +1,72 @@
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.env
+.env.*
+!.env.example
+
+# Java / Spring Boot / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/wrapper/maven-wrapper.jar
+.apt_generated
+.apt_generated_tests
+
+# Local Node/Maven Installations
+node-v*-win-x64/
+apache-maven-*/
+node/
+
+# Python scripts/virtualenvs (from test scripts)
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# Testing & Logs
+logs/
+*.log
+coverage/
+cypress/videos/
+cypress/screenshots/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Docker local data (e.g., if binding postgres to a local path)
+pgdata/
+postgres-data/
+
+# Secrets / Configs
+secret/
+credentials.json
+*.pem
+*.key
+
+# Temporary artifacts from development
+test_api.py
+test_mc.py
+generate_security.py
+backend/generate_files.py
